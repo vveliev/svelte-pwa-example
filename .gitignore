@@ -1,54 +1,27 @@
-#  Local .terraform directories
-**/.terraform*
-**/.cache*
-**/sec/*
-*.binary
-
-# .tfstate files
-*.tfstate
-*.tfstate.*
-
-# .lock.hcl files
-*.lock.hcl
-.terraform.lock.hcl
-
-# .tfvars files
-*secrets.tfvars
-
-# OpenStack files
-*.raw
-*.venv
-
-# Ruby
-Gemfile.lock
-
-# kitchen.ci
-.kitchen
-
-# sphinx docs build
-*_build
-
-*.zip
-.DS_Store
-*_token
-*_token.json
-*secret*.json
-*_bootstrap.json
-vault_init.json
-.idea
-.local
-.vault-token
-notes.txt
-*.log
-*.env
-dd.env
-
-# Node js
+test-results
 node_modules
-*.log*
-.nuxt
-.nitro
-.cache
+
+# Output
 .output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
 .env
-dist
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Paraglide
+src/lib/paraglide
