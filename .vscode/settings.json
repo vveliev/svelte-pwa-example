@@ -1,0 +1,10 @@
+{
+    "cSpellTech.enabled": true,
+    "cSpellTech.expand": false,
+    "[markdown]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    }
+}
