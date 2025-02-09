@@ -2,5 +2,21 @@
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "welcome": "Welcome to {company}",
   "documentation": "Visit {link} to read the documentation",
-  "company": "SvelteKit"
+  "company": "SvelteKit",
+  "onboarding": {
+    "user_information": "User Information",
+    "name": "Name",
+    "age": "Age",
+    "age_category": "Age Category",
+    "next": "Next",
+    "skip": "Skip",
+    "add_siblings": "Add Siblings",
+    "add_friends": "Add Friends",
+    "add_sibling": "Add Sibling",
+    "add_friend": "Add Friend",
+    "submit": "Submit",
+    "someone_you_look_up_to": "Someone you look up to",
+    "someone_you_are_in_conflict_with": "Someone you are in conflict with",
+    "personalization": "Personalization"
+  }
 }
