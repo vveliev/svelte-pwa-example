@@ -3,5 +3,21 @@
 	"hello_world": "Привет, {name} из ru!",
 	"welcome": "Добро пожаловать в {company}",
 	"company": "SvelteKit",
-	"documentation": "Посетите {link}, чтобы прочитать документацию"
+	"documentation": "Посетите {link}, чтобы прочитать документацию",
+	"onboarding": {
+		"user_information": "Информация о пользователе",
+		"name": "Имя",
+		"age": "Возраст",
+		"age_category": "Возрастная категория",
+		"next": "Далее",
+		"skip": "Пропустить",
+		"add_siblings": "Добавить братьев и сестер",
+		"add_friends": "Добавить друзей",
+		"add_sibling": "Добавить брата или сестру",
+		"add_friend": "Добавить друга",
+		"submit": "Отправить",
+		"someone_you_look_up_to": "Кто-то, кем вы восхищаетесь",
+		"someone_you_are_in_conflict_with": "Кто-то, с кем вы в конфликте",
+		"personalization": "Персонализация"
+	}
 }

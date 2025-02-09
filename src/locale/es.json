@@ -1,5 +1,21 @@
 {
 	"welcome": "Bienvenido a {company}",
 	"company": "SvelteKit",
-	"documentation": "Visita {link} para leer la documentación"
+	"documentation": "Visita {link} para leer la documentación",
+	"onboarding": {
+		"user_information": "Información del usuario",
+		"name": "Nombre",
+		"age": "Edad",
+		"age_category": "Categoría de edad",
+		"next": "Siguiente",
+		"skip": "Omitir",
+		"add_siblings": "Agregar hermanos",
+		"add_friends": "Agregar amigos",
+		"add_sibling": "Agregar hermano",
+		"add_friend": "Agregar amigo",
+		"submit": "Enviar",
+		"someone_you_look_up_to": "Alguien a quien admiras",
+		"someone_you_are_in_conflict_with": "Alguien con quien estás en conflicto",
+		"personalization": "Personalización"
+	}
 }

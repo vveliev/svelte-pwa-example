@@ -26,12 +26,16 @@ const renderMessage = (message, values) => {
 	return message.replace(/{(\w+)}/g, (_, key) => values[key] || `{${key}}`);
 };
 
+const getNestedValue = (obj, key) => {
+	return key.split('.').reduce((acc, part) => acc && acc[part], obj);
+};
+
 export const t = derived(
 	locale,
 	($locale, set) => {
 		translationsLoaded.then(() => {
 			set((key, values = {}) => {
-				const message = translations[$locale]?.[key] || key;
+				const message = getNestedValue(translations[$locale], key) || key;
 				return renderMessage(message, values);
 			});
 		});
