@@ -36,3 +36,15 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+### Android
+
+To build an Android app, you can use the [Capacitor](https://capacitorjs.com/) adapter:
+
+```bash
+npm run build
+
+npx cap copy
+
+npx cap open android
+```
