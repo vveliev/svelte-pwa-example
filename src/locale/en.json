@@ -1,0 +1,6 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "welcome": "Welcome to {company}",
+  "documentation": "Visit {link} to read the documentation",
+  "company": "SvelteKit"
+}

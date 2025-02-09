@@ -1,0 +1,7 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Привет, {name} из ru!",
+	"welcome": "Добро пожаловать в {company}",
+	"company": "SvelteKit",
+	"documentation": "Посетите {link}, чтобы прочитать документацию"
+}
